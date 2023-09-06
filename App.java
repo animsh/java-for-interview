@@ -1,10 +1,13 @@
 public class App {
     public static void main(String[] args) {
-        Person person = new Person();
-        Person p = person;
+        Dog dog = new Dog();
+        Cat cat = new Cat();
 
-        person.name = "Maaike";
-        System.out.println(p.name);
-        System.out.println(person.name);
+        dog.canEat();
+        cat.canEat();
+        cat.canEat("meat");
+
+        System.out.println(Dog.type);
+        System.out.println(Cat.type);
     }
 }
