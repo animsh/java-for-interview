@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     private int age;
     private String name;
     private int numberOfEyes;
